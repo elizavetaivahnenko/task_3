@@ -1,5 +1,5 @@
 
-*{
+*{ 
     box-sizing: border-box;
     overflow: hidden;
 } 
@@ -39,6 +39,9 @@ div.infoContainer p{
     border-radius: 5px;
     padding: 3px 15px;
     margin-top: 15px;
+    display: flex;
+    margin: 0 auto;
+    
 }
 .social{
     display: flex;
@@ -47,6 +50,12 @@ div.infoContainer p{
 .info_social{
     display: flex;
     flex-direction: column;
-    
 }
-
+.social_container{
+    display: inline-flex;
+    flex-direction: row;
+   justify-content: space-around;
+   background-color: rgb(8, 36, 70);
+   width: 100%;
+   
+}
