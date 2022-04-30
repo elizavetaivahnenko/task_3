@@ -1,0 +1,158 @@
+root {
+    --primary-color: white;
+    --second-color: #FA4A0C;
+    --primary-font-size:16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.cont-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    margin-bottom: 40.27px;
+    margin-top: 49.5px;
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    margin-top: 64px;
+}
+.inner-menu li{
+    margin-right: 114px;
+    list-style-type: none;
+    display: inline;
+}
+.inner-menu a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-right: 114px;
+    text-decoration: none;
+    color: var(--second-color);
+    
+}
+.btn-container{
+     margin-top: 94px;
+}
+.button{
+    color: white;
+    height: 68px;
+    width: 236px;
+
+    border-radius: 30px;
+    padding: 16px 0;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+}
+.btn-1{
+    background: var(--second-color);
+    border: none;
+    margin-right: 35px;
+    
+}
+.btn-2{
+    background: none;
+    border: 1px solid white;
+}
+.restApp{
+    background-image: url(/new_practice/images/Rectangle\ 48.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 0 178px;
+}
+.restApp h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.restApp h1{
+font-family: Poppins;
+font-size: 58px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+}
+.restApp h4{ 
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+}
+.menu{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 64px;
+
+}
+.logo{
+    display: inline-block;
+    margin-top: 49.5px;
+    margin-left: 115.3px;
+}
+.container>h2{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    color: black;
+    margin-top: 56px;
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 113px;
+    margin-bottom: 50px;
+}
+.mobile-img{
+    margin-top: 106px;
+    margin-left:174px; ;
+}
+.mobile-info{
+    margin-top: 183px;
+}
+.mobile-info h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    
+}
