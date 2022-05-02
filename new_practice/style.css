@@ -1,4 +1,4 @@
-root {
+:root {
     --primary-color: white;
     --second-color: #FA4A0C;
     --primary-font-size:16px;
@@ -32,7 +32,6 @@ root {
     margin-top: 64px;
 }
 .inner-menu li{
-    margin-right: 114px;
     list-style-type: none;
     display: inline;
 }
@@ -45,33 +44,33 @@ root {
     text-align: center;
     margin-right: 114px;
     text-decoration: none;
-    color: var(--second-color);
+    color: black;
     
 }
 .btn-container{
      margin-top: 94px;
 }
-.button{
-    color: white;
-    height: 68px;
-    width: 236px;
+button{
+color: white;
+height: 68px;
+width: 236px;
 
-    border-radius: 30px;
-    padding: 16px 0;
+border-radius: 30px;
+padding: 16px 0;
 
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.10000000149011612px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
 }
+
 .btn-1{
     background: var(--second-color);
     border: none;
     margin-right: 35px;
-    
 }
-.btn-2{
+.btn-2{ 
     background: none;
     border: 1px solid white;
 }
@@ -99,6 +98,8 @@ font-weight: 700;
 line-height: 80px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
+margin: 10px 322px 14.89px 319px;
+
 }
 .restApp h4{ 
 font-family: Montserrat;
@@ -110,12 +111,10 @@ text-align: center;
 
 }
 .menu{
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: flex;
+    justify-content: end;
     margin-top: 64px;
-
+    margin-right: 64px;
 }
 .logo{
     display: inline-block;
@@ -146,6 +145,7 @@ text-align: center;
 }
 .mobile-info{
     margin-top: 183px;
+    margin-left: 287px;
 }
 .mobile-info h3{
     font-family: Montserrat;
@@ -154,5 +154,67 @@ text-align: center;
     line-height: 36px;
     letter-spacing: 0.10000000149011612px;
     text-align: left;
-    
+    color: var(--second-color);
+}
+.mobile-info h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    width: 561px;
+}
+.mobile-info h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    width: 467px;
+}
+.infoSecondContainer{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.mobileImage{
+    margin-top: 29px;
+    margin-right: 197px;
+}
+.position_second_container{
+    margin-top: 134px;
+    margin-left: 175px;
+    margin-right: 338px;
+}
+.container-3{
+padding-top: 142px;
+}
+.info-container-3{
+    background-image: url(/new_practice/images/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 146.9px 0 149.1px;
+}
+.info-container-3 h4{
+    padding-top: 20px;
+    padding-bottom: 77px;
+}
+footer{
+    margin: 76.9px 115px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{ 
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: right;
 }
